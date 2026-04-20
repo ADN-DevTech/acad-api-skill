@@ -1,0 +1,19 @@
+# Visual Studio / .NET
+[Oo]bj/
+[Bb]in/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# AutoCAD / Plant 3D
+*.bak
+*.dwl
+*.dwl2
+*.log
+*.err
+
+# OS
+.DS_Store
+Thumbs.db

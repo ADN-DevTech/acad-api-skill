@@ -1,0 +1,25 @@
+---
+description: AutoCAD .NET plugin development (AutoCAD 2027 / Civil 3D / Plant 3D)
+globs: ["**/*.cs", "**/*.csproj", "**/launchSettings.json"]
+alwaysApply: true
+---
+
+# AutoCAD .NET Plugin Development
+
+Refer to `CLAUDE.md` in this repository root for the full skill set.
+
+## Quick Reference
+
+- Framework: `net10.0-windows`, platform `win-x64`
+- AutoCAD.NET: `26.0.0` | Civil3D.NET: `13.9.628` | Plant 3D: local SDK (no NuGet)
+- Scaffold: `dotnet new acad` (AutoCAD/Plant base), `dotnet new civil` (Civil 3D)
+- Plant SDK path: `PLANT_SDK` env var / MSBuild property — must be set by user
+- AutoCAD install: `ACAD_HOME` env var — prompt user if not set
+
+## Skills in this repo
+
+- `skills/scaffold.md` — step-by-step project creation
+- `skills/autocad-api.md` — base AutoCAD .NET patterns
+- `skills/civil3d-api.md` — Civil 3D API patterns
+- `skills/plant3d-api.md` — Plant 3D world map + full API patterns
+- `skills/code-sleuth.md` — finding SDK samples and API references

@@ -1,0 +1,27 @@
+{
+  "name": "acad-api-skill",
+  "version": "1.0.0",
+  "description": "AI agent skills and rules for scaffolding and building AutoCAD, Civil 3D, and Plant 3D plugins using .NET 10.",
+  "main": "bin/install.js",
+  "bin": {
+    "acad-api-skill": "bin/install.js"
+  },
+  "scripts": {
+    "start": "node bin/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ADN-DevTech/acad-api-skill.git"
+  },
+  "keywords": [
+    "autocad",
+    "civil3d",
+    "plant3d",
+    "ai",
+    "cursor",
+    "claude",
+    "copilot"
+  ],
+  "author": "Madhukar Moogala",
+  "license": "MIT"
+}

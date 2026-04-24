@@ -302,7 +302,7 @@ string result = FormatStringUtils.Evaluate(
 | `FindRelatedRows` exception | Missing `role2` — no 3-arg overload |
 | `loc[i]` cast fails | Indexer returns `RXObject` — use `loc[i] as LineObject` |
 | `PnPObjectIdArray` not found | Type not public — use `var` |
-| DLL reload fails mid-session | Restart AutoCAD — `NETUNLOAD` unreliable |
+| DLL reload fails mid-session | Restart AutoCAD — we can't unload .NET DLL in Session unlike (arx|dbx|crx)|
 | Property not found by name | Try `"Size"` then `"NominalDiameter"` — or enumerate `tbl.Columns` |
 | `entmod`/`entmake` don't work | Plant entities: managed .NET only, no AutoLISP |
 | Wrong OPC traversal | Stop at OPC asset — API follows chain to far side |

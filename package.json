@@ -4,7 +4,7 @@
   "description": "AI agent skills and rules for scaffolding and building AutoCAD, Civil 3D, and Plant 3D plugins using .NET 10.",
   "main": "bin/install.js",
   "bin": {
-    "acad-api-skill": "node bin/install.js"
+    "acad-api-skill": "./bin/install.js"
   },
   "scripts": {
     "start": "node bin/install.js"

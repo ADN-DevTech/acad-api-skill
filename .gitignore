@@ -14,6 +14,9 @@
 *.log
 *.err
 
+# Agent / install smoke tests (timestamped scratch dirs under tests/)
+tests/test-*/
+
 # OS
 .DS_Store
 Thumbs.db

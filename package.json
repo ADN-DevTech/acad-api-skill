@@ -1,13 +1,14 @@
 {
   "name": "acad-api-skill",
   "version": "1.0.0",
-  "description": "AI agent skills and rules for scaffolding and building AutoCAD, Civil 3D, and Plant 3D plugins using .NET 10.",
+  "description": "AI agent skills and rules for AutoCAD / Civil 3D / Plant 3D .NET 10 plugins. npx install copies skills and registers dotnet new templates; npx uninstall removes templates (delete copied files per README/CLAUDE.md).",
   "main": "bin/install.js",
   "bin": {
     "acad-api-skill": "./bin/install.js"
   },
   "scripts": {
-    "start": "node bin/install.js"
+    "start": "node bin/install.js",
+    "uninstall": "node bin/install.js uninstall"
   },
   "repository": {
     "type": "git",
@@ -20,7 +21,10 @@
     "ai",
     "cursor",
     "claude",
-    "copilot"
+    "copilot",
+    "uninstall",
+    "dotnet-template",
+    "scaffolding"
   ],
   "author": "Madhukar Moogala",
   "license": "MIT"
